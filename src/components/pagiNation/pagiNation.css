@@ -1,0 +1,43 @@
+.pagiNation__section { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    gap: 20px;
+}
+.pagiNation__pages {
+    display: flex;
+    gap: 4px;
+}
+.sort-container {
+    position: relative;
+}
+.sort__selected-view {
+    position: relative;
+}
+.sort-fieldset {
+    position: absolute;
+    top: -90px;
+    left: 0;
+    width: 100%;
+    text-align: end;
+    border-radius: 8px;
+    background: white;
+    border: 1px solid #efefef;
+    padding: 10px 5px;
+}
+.sort_label {
+    width: 100%;
+    margin: 10px  0 0 ;
+    cursor: pointer;
+} 
+.sort_label:hover {
+    background-color: rgb(194, 248, 248);
+}
+.sort_input{ 
+    position: absolute;
+    appearance: none;
+}
+.sort_title{ 
+
+}

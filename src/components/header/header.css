@@ -1,0 +1,114 @@
+.header-section {
+    background: white;
+    color: #1f1f1f;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.1);
+}
+.header__title-container {
+    border-bottom: 1px solid #efefef;
+    padding: 20px 14px;
+    line-height: 14px;
+}
+.header__bottom-container {
+    display: flex;
+    padding: 20px 14px;
+    line-height: 14px;
+}
+.header__bottom-title {
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+.header__function-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap : 10px;
+}
+
+.drop_down__container { 
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    gap: 2px;
+    top: 35px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #beb8b8;
+    border-radius: 4px;
+    padding: 10px 0 0;
+}
+.drop_down__option-container {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}   
+.drop_down__option-input {
+    position: absolute;
+    appearance: none;
+    height: 1px;
+}
+
+.drop_down__option-items {
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 6px 8px;
+}
+.drop_down__option-items:hover {
+    background-color: #efefef;
+}
+
+.search_option__conatiner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    padding: 4px 3px;
+    font-size: 12px;
+    border: 1px solid #beb8b8;
+    border-radius: 4px;
+}
+.seacrh__selected-view {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.search__dropdown-container {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 120px;
+    border: 1px solid #beb8b8;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.search_input {
+    height: 30px;
+    border: 1px solid #beb8b8;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.function_btn {
+    height: 30px;
+    border : none; 
+    background-color: #1f1f1f;
+    color: white;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width : 550px) {
+    .header-section {
+        /* background-color: red; */
+    }
+}
